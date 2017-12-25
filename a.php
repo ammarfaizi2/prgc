@@ -1,7 +1,7 @@
 <?php
+// https://github.com/ammarfaizi2/prgc
 
 $exceptions = ["get_defined_functions", "file_get_contents", "show_source", "strlen", "rtrim", "implode", "define", "rand", "strpos", "time", "date"];
-
 $forbidden = "";
 
 foreach(get_defined_functions()['internal'] as $q) {
